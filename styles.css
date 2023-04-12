@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+    background-color: #877c7c;
+}
+.container {
+    max-width: 1124px;
+    width: 1124px;
+}
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.header__flex img {
+    margin-left: 3%;
+    margin-right: 4px;
+}
+.header__flex nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__flex nav img {
+    margin-left:23px;
+    margin-right: 101px;
+}
+
+.kino {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 89px;
+    color: black;
+}
+.kino .container > a { 
+    font-size: 22px;
+    margin-top: 56px;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+.kino__price {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-left: 1%;
+}
+
+.kino__price_1 {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 1%;
+}
+
+.kino__price__elem {
+    flex: 0 308px;
+    margin-top: 36px;
+
+    cursor: pointer;
+}
+.kino__price__elem p:nth-child(2) {
+    font-size: 16px;
+}
+.kino .container > p { 
+    font-size: 22px;
+    margin-top: 56px;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+.kino__price__elem p:nth-child(3) {
+    font-size: 14px;
+    color: black;
+}
+.kino__price__elem p:nth-child(4) {
+    font-size: 13px;
+    color: black;
+}
+
+
+.search__input {
+    width: 100%;
+    margin-top: 56px;
+
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    outline: none;
+}
+
+.search__input::placeholder {
+    font-size: 16px;
+}
+
+.container nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 17px;
+}
+
+
+
+.footer {
+    display:  flex;
+    justify-content: center;
+    min-height: 30px;
+    background-color: #877c7c;
+}
+
+.footer__el {
+    display:  flex;
+    border-bottom: 1px solid grey;
+    text-align: center
+}
+
+.footer__logo {
+
+}
+
+
+.footer__el_big {
+    min-height: 20px;
+text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__selection {
+
+    margin: 35px 100px;
+    margin-left: 0;
+
+    width: 230px;
+    height:  40px;
+
+    background-color: #3b3b3b;
+    color: white;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.slc__img-shape {
+    padding: 15px;
+    padding-left: 85px;
+
+    
+}
+
+.slc__img-world {
+    padding: 12px;
+    padding-right: 15px;
+}
+
+.slc__txt {
+    font-size: 15px;
+
+    display: inline-block;
+    position: relative;
+    bottom:  14px;
+}
+
+
+
+
+.slc__logos {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.slc__logos img {
+    margin-top: 15px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.slc__txt_special {
+    font-size: 18px;
+    color:  white;
+}
+.slc__txt_special span {
+    color: limegreen;
+}
+
+
+
+.slc__flexs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    flex: 0 600px;
+
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.trash {
+    flex: 0 300px;
+}
+
+.flexs__nav {
+    flex: 0 250px;
+}
+
+.flexs__nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.flexs__nav_r {
+    flex: 0 250px;
+    right: 100px;
+}
+
+.footer-img__visa, .footer-img__mc, .footer-img__mir {
+    padding: 35px 0;
+    cursor: pointer;
+}
+
+.footer-img__apps {
+    margin-right: 20px;
+}
+
+.footer__el_special {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__el_ss {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.last-txt {
+    color: white;
+    flex: 0 1500px;
+    text-align: center;
+}
+
+.last-txt a {
+    text-decoration: none;
+    color: white;
+
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.last-txt_sup {
+    flex: 0 300px;
+}
+.last-txt p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+.pointer img {
+    position: relative;
+    top: 22px;
+    left: 27px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .header__flex nav img {
+        margin-right: 23px;
+    }
+}
+
+#mainmenu {
+    background: #877c7c;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 0 0
+}
+#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 18px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+#mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+#mainmenu ul li a:hover {
+    background-color: #666;
+}
+
+.obratnuj-zvonok{
+	width: 100%;
+	max-width: 350px;
+}
+.form-zvonok{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.form-zvonok div{
+	padding: 15px 0;
+}
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-zvonok label,.form-zvonok input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-zvonok label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-zvonok input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+.form-zvonok label span{
+	color: red;
+}
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #005385;
+	cursor: pointer;
+	border: 3px #005385 solid;
+	border-radius: 5px;
+}
+.form-zvonok .bot-send-mail:hover{
+	color: #009b97;
+	background-color: #fff;
+}
+.title{
+	font-size: 36px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.menu_1{
+	list-style: none;
+	position: absolute;
+	top: -10px;
+	left: 35px;
+    text-align: center;
+}
+
+.menu_2{
+	list-style: none;
+	position: absolute;
+	top: -10px;
+	right: 100px;
+    text-align: center;
+}
+
+.news-item {
+    font-size: .9375rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 2;
+}
